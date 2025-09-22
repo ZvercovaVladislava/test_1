@@ -1,1 +1,3 @@
 #sjnfvheb
+
+print("day")
