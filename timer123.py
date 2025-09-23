@@ -11,7 +11,7 @@ class MultiTimerApp:
         self.running = True
 
         # Панель для смены цвета
-        self.color_panel = tk.Frame(root, bg="lightgray", height=100, width=700)  
+        self.color_panel = tk.Frame(root, bg="lightgray", height=100, width=700)  # расширена
         self.color_panel.pack(fill="x")
 
         # Метка для события
@@ -46,7 +46,7 @@ class MultiTimerApp:
             return
         self.root.after(0, lambda: self.time_label.config(text="Событие наступило!"))
 
-    #таймер 3: счётчик с периодом 1 секунда
+    #таймер 3:  счётчик с периодом 1 секунда
     def update_counter(self):
         if not self.running:
             return
