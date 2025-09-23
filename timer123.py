@@ -11,7 +11,7 @@ class MultiTimerApp:
         self.running = True
 
         # Панель для смены цвета
-        self.color_panel = tk.Frame(root, bg="lightgray", height=100, width=700)  # расширена
+        self.color_panel = tk.Frame(root, bg="lightgray", height=100, width=700)  
         self.color_panel.pack(fill="x")
 
         # Метка для события
