@@ -60,7 +60,7 @@ class MultiTimerApp:
         threading.Timer(1, self.update_counter).start()
 
     def on_close(self):
-        self.running = False   # таймеры останавливаются
+        self.running = False   
         self.root.destroy()
 
 
