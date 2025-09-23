@@ -15,7 +15,7 @@ class MultiTimerApp:
         self.color_panel.pack(fill="x")
 
         # Метка для события
-        self.time_label = tk.Label(root, text="Ждём события...", font=("Arial", 16), width=40)
+        self.time_label = tk.Label(root, text="Жду событие...", font=("Arial", 16), width=40)
         self.time_label.pack(pady=15)
 
         # Счётчик
